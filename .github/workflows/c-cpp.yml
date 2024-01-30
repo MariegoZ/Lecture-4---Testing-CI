@@ -16,4 +16,5 @@ jobs:
     - name: make           #steps to be executed
       run: make test
     - name: run test
-      run: ./test
+      run: ./test    #-s flag to show expanded version of test run: all assertions sent and evaluations.
+      #can add tag in TEST_CASE("name of test", "[tag]"){} can filter by tag:  ./test [tag]
